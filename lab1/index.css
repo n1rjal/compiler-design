@@ -1,0 +1,71 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: left;
+  margin-left: 20px;
+}
+
+h2 {
+  margin-top: 10px;
+}
+
+#product__form {
+  margin: 10px;
+}
+
+form {
+  border: 1px solid black;
+  padding: 10px;
+  width: min-content;
+}
+
+#product__form input,
+#product__form textarea {
+  width: 400px;
+  display: block;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#product__form textarea {
+  height: 200px;
+}
+
+#product__search {
+  margin: 20px;
+}
+
+#product__search input,
+#product__search button {
+  margin-right: 10px;
+  width: 400px;
+}
+
+#product__search button {
+  cursor: pointer;
+  width: 100px;
+  display: block;
+}
+
+#product__list {
+  margin: 20px;
+}
+
+#product__list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#product__list ul li {
+  margin-bottom: 10px;
+}
+
+#product__list ul li span {
+  font-weight: bold;
+}

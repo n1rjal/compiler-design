@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+  </head>
+  <body>
+    <h1>Lab1</h1>
+
+    <form id="product__form">
+      <h2>Insert Product</h2>
+      Product Name:<input type="text" id="product__name" /> Price:<input
+        type="number"
+        id="product__price"
+      />
+      Description:<textarea id="product__description"></textarea>
+      <button type="submit">Add Product</button>
+    </form>
+
+    <form id="product__search">
+      <h2>Search</h2>
+      <input type="text" id="search__input" placeholder="Search by name" />
+      <button id="search__button">Search</button>
+    </form>
+
+    <div id="product__list">
+      <h2>Product List</h2>
+      <div id="product__list"></div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
